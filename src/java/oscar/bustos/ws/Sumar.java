@@ -7,7 +7,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 /**
- *
+ *Clase que se expone como servicio para sumar dos numeros
  * @author Oscar
  */
 @WebService
