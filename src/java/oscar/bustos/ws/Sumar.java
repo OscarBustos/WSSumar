@@ -1,6 +1,5 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Clase que se expone como servicio para sumar dos numeros
  */
 package oscar.bustos.ws;
 
@@ -13,6 +12,13 @@ import javax.jws.WebService;
  */
 @WebService
 public class Sumar {
+    
+    /**
+     * Metodo el cual se encarga de realizar la suma de dos numeros enteros
+     * @param a
+     * @param b
+     * @return 
+     */
     @WebMethod
     public Integer suma(int a , int b){
         return a + b;
